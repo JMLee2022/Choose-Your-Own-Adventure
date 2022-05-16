@@ -15,7 +15,7 @@ void end9();
     //main program to run (logic)
     introChoice = intro();
     if("1" == introChoice){
-        middle1();
+        middleChoice1 = middle1();
         if(middleChoice1 == "1"){
             end1();
         }
@@ -27,9 +27,9 @@ void end9();
         }
     }
     if("2" == introChoice){
-        middle1();
+        middleChoice1 = middle1();
         if(middleChoice1 == "1"){
-            end4();
+           end4();
         }
         if(middleChoice1 == "2"){
             end5();
@@ -37,9 +37,9 @@ void end9();
         if(middleChoice1 == "3"){
             end6();
         }
-    }
+}
     if("3" == introChoice){
-        middle1();
+        middleChoice1 = middle1();
         if(middleChoice1 == "1"){
             end1();
         }
@@ -102,16 +102,21 @@ void end6 (){
     printf("When you 'got by' the guard, you French kissed his beard. \nAppalled he gets on his knee and pulls out a quarterly, velvet box.\n That's when you made your break for it, into the den of thieves.");
 }
 void end7 (){
-    printf("When you 'got by' the guard, you asked the guard \n 'what's YOUR name?' with an attitude filled tone. You walk by the guard who raises and eyebrow and shrugs. Onto the den of thieves. \n");
-}
+    printf("When you 'got by' the guard, you asked the guard \n 'what's YOUR name?' with an attitude filled tone. \nYou walk by the guard who raises and eyebrow and shrugs. Onto the den of thieves.\n The statue was not a statue at all as it appeared, he moved smoothly accross the dusty air.\n");
+    printf("'"+P1Name+"?';");
+    delay(1000);
+    printf ("yeah?...");
+    delay (2000);
+    printf ("B A N G !");
+    printf ("'Gotcha ***** hahaa' The man said, 'OH NO' "+P1Name+"'Are you okay?' as he dropped the toy gun to the ground.'");
+    delay (1000);
+    printf ("You died of a heart attack.");
+    }
 void end8 (){
-    printf("When you 'got by' the guard, you asked the guard \n 'what's YOUR name?' with an attitude filled tone. You walk by the guard who raises and eyebrow and shrugs. Onto the den of thieves. \n");
+    printf("When you 'got by' the guard, you asked the guard \n 'what's YOUR name?' with an attitude filled tone. \nYou walk by the guard who raises and eyebrow and shrugs. Onto the den of thieves. \n");
 
 void end9 (){
-    printf("When you 'got by' the guard, you asked the guard \n 'what's YOUR name?' with an attitude filled tone. You walk by the guard who raises and eyebrow and shrugs. Onto the den of thieves. \n");
+    printf("When you 'got by' the guard, you asked the guard \n 'what's YOUR name?' with an attitude filled tone. \nYou walk by the guard who raises and eyebrow and shrugs. Onto the den of thieves.\n ");
 }
     
-
-
-        
 }
